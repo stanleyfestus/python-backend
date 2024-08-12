@@ -1,0 +1,41 @@
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+
+# Django
+*.log
+local_settings.py
+media/
+staticfiles/
+db.sqlite3
+
+# Virtual Environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules
+node_modules/
+
+# Build files
+build/
+dist/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
